@@ -169,7 +169,7 @@
  <objectgroup id="2" name="Collisions">
   <object id="74" x="808" y="1961.33" width="118.667" height="122.667"/>
   <object id="75" x="1605.33" y="2172" width="185.333" height="200"/>
-  <object id="76" x="2146.67" y="1378.67" width="128" height="134.667"/>
+  <object id="76" x="2158.66" y="1378.67" width="116.015" height="119.686"/>
   <object id="77" x="1321.33" y="925.333" width="129.333" height="134.667"/>
   <object id="78" x="1382.67" y="869.333" width="137.333" height="114.667"/>
   <object id="79" x="1446.67" y="804" width="120" height="133.333"/>
@@ -285,7 +285,7 @@
   <object id="153" gid="218" x="1853.28" y="1249.85" width="64" height="104"/>
   <object id="154" gid="214" x="1486.67" y="1549.33" width="128" height="192"/>
   <object id="155" gid="215" x="1534.67" y="1626.67" width="64" height="128"/>
-  <object id="162" gid="214" x="2190.67" y="1665.33" width="128" height="192"/>
+  <object id="162" gid="214" x="2216.14" y="1665.33" width="128" height="192"/>
   <object id="163" gid="214" x="1097.33" y="616" width="128" height="192"/>
   <object id="164" gid="214" x="1153.33" y="677.333" width="128" height="192"/>
   <object id="165" gid="213" x="1313.33" y="670.667" width="128" height="192"/>
