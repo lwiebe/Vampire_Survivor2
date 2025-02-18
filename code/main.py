@@ -47,7 +47,6 @@ class Game:
                     full_path = join(folder_path, file_name)
                     surf = pygame.image.load(full_path).convert_alpha()
                     self.enemy_frames[folder].append(surf)
-        print(self.enemy_frames)
     
     def input(self):
         if pygame.mouse.get_pressed()[0] and self.can_shoot:
@@ -91,7 +90,7 @@ class Game:
                 if event.type == pygame.QUIT:
                     self.running = False
                 if event.type == self.enemy_event:
-                    Enemy(choice(self.spawn_positions), frames, (self.all_sprites, self.enemy, self.enemy_sprites), self.player)
+                    Enemy(choice(self.spawn_positions), choice(list(self.enemy_frames.values())), (self.all_sprites, self.enemy_sprites), self.player, self.collision_sprites)
                     
             # update
             self.gun_timer()
